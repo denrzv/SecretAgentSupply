@@ -167,3 +167,104 @@ footer {
   background-color: black;
   padding: 5rem 0;
 }
+
+/* media queries */
+
+@media only screen and (min-width: 1024px) {
+  .header-menu p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  figure {
+    width: 47%;
+  }
+
+  .items figure:last-of-type {
+    display: none;
+  }
+
+  .header-menu ul {
+    display: none;
+  }
+
+  .header-menu p {
+    margin: 0.75rem 0;
+  }
+
+  .header-menu {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  figure {
+    width: 90%;
+  }
+
+  .watch,
+  .glasses {
+    display: none;
+  }
+
+  .header-banner-featured h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .header-banner-featured h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .header-banner-featured {
+    margin-top: auto;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .outer-header-banner {
+    height: 15rem;
+  }
+
+  .inner-header-banner-featured {
+    margin: 1rem 2rem;
+  }
+
+  address {
+    flex-wrap: wrap;
+  }
+
+  footer section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .inner-flexbox {
+    display: flex;
+    width: 100%;
+  }
+
+  .header-banner {
+    width: 100%;
+  }
+
+  .items {
+    justify-content: center;
+  }
+
+  address {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  address div {
+    width: 90%;
+  }
+
+  .hours-container {
+    margin-top: 0.5rem;
+  }
+}
