@@ -12,7 +12,6 @@ html {
 }
 
 .page {
-  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -58,6 +57,9 @@ header h3 {
 
 .outer-header-banner {
   background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 25rem;
 }
 
